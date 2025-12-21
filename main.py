@@ -82,24 +82,24 @@ page = st.sidebar.selectbox(
 # 🏠 OVERVIEW PAGE
 # ======================================
 if page == "🏠 Overview":
-    st.subheader("📌 Dashboard Overview")
+    st.subheader("Dashboard Overview")
 
     col1, col2, col3 = st.columns(3)
     col1.metric("Total Responses", len(df))
     col2.metric("Total Variables", len(df.columns))
     col3.metric("Missing Values", df.isna().sum().sum())
 
-    st.markdown("### 🔍 Data Preview")
+    st.markdown("### Data Preview")
     st.dataframe(df, use_container_width=True)
 
-    st.markdown("### 📈 Summary Statistics")
+    st.markdown("### Summary Statistics")
     st.write(df.describe(include="all"))
 
 # ======================================
 # 👥 DEMOGRAPHIC ANALYSIS PAGE
 # ======================================
 elif page == "👥 Demographic Analysis":
-    st.subheader("👥 Demographic Analysis")
+    st.subheader("Demographic Analysis")
 
     demo_col = st.selectbox(
         "Select Demographic Variable",
@@ -118,7 +118,7 @@ elif page == "👥 Demographic Analysis":
 # 📊 SURVEY CHARTS PAGE
 # ======================================
 elif page == "📊 Survey Charts":
-    st.subheader("📊 Survey Question Analysis")
+    st.subheader("Survey Question Analysis")
 
     question_col = st.selectbox(
         "Select Survey Question",
@@ -142,7 +142,7 @@ elif page == "📊 Survey Charts":
 # 🤖 MACHINE LEARNING PAGE
 # ======================================
 elif page == "🤖 Machine Learning":
-    st.subheader("🤖 Respondent Segmentation (K-Means)")
+    st.subheader("Respondent Segmentation (K-Means)")
 
     st.markdown("""
     **Objective:**  
@@ -172,5 +172,5 @@ elif page == "🤖 Machine Learning":
 
         st.plotly_chart(fig, use_container_width=True)
 
-        st.markdown("### 🧠 Clustered Data Preview")
+        st.markdown("### Clustered Data Preview")
         st.dataframe(clustered_df.head(), use_container_width=True)

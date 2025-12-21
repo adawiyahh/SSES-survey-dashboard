@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("📊 SSES Survey Dashboard")
+st.title("SSES Survey Dashboard")
 st.write("Monitoring survey responses in real time.")
 
 # ----------------------------------
@@ -23,7 +23,7 @@ df = load_data()
 # Sidebar Navigation (Dropdown)
 # ----------------------------------
 page = st.sidebar.selectbox(
-    "📂 Select Page",
+    "HomePage",
     [
         "🏠 Overview",
         "👥 Demographic Analysis",

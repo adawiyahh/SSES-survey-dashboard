@@ -1,0 +1,120 @@
+timestamp,Email Address,gender,marital_status,education_level,employment_status,state,home_language,life_satisfaction,cheerful,well_rested,overall_health,social_time,helping_others,social_support,social_skills_growth,neighborhood_safety,community_care,community_impact,enjoy_learning,self_motivation,future_goals,calm_under_pressure,emotional_control,teamwork,task_persistence,adaptability,fixed_social_belief,equal_opportunity_belief,wellbeing_belief,community_participation,physical_activity,age,emotional_resilience_score
+2025-12-11 20:35:00,naqiuamran01@gmail.com,Male (1),Single,Bachelor's,Student,KELANTAN,Malay,3,4.0,4.0,5.0,3,4.0,5.0,5.0,5,3.0,3.0,4.0,4.0,Graduate,5.0,5.0,4.0,4,4.0,5.0,5.0,5.0,3,3,21.0,4.666666666666667
+2025-12-11 20:43:00,s22a0043@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,SELANGOR,Malay,4,3.0,3.0,4.0,4,4.0,4.0,5.0,4,4.0,5.0,5.0,5.0,Success,4.0,4.0,3.0,4,4.0,3.0,3.0,5.0,4,4,21.0,4.0
+2025-12-11 20:48:00,s24a0459@siswa.umk.edu.my,Male (1),Single,Bachelor's,Student,TERENGGANU,Malay,4,5.0,4.0,4.0,5,4.0,4.0,4.0,5,4.0,4.0,4.0,5.0,I want to be billionaire ,3.0,3.0,5.0,4,5.0,4.0,5.0,3.0,3,2,21.0,3.6666666666666665
+2025-12-11 20:49:00,s22a0027@siswa.umk.edu.my,Male (1),Single,Bachelor's,Student,SELANGOR,Malay,4,3.0,4.0,5.0,5,4.0,5.0,4.0,5,3.0,3.0,5.0,5.0,To achieve new experiences and fun in my life,5.0,4.0,5.0,5,5.0,4.0,5.0,5.0,4,4,21.0,4.666666666666667
+2025-12-11 20:52:00,s22a0093@siswa.umk.edu.my,Male (1),Single,Bachelor's,Student,OTHER,English,5,4.0,4.0,3.0,5,5.0,4.0,5.0,4,3.0,4.0,5.0,4.0,job at microsoft,5.0,4.0,3.0,5,4.0,3.0,5.0,5.0,4,4,21.0,4.333333333333333
+2025-12-11 21:03:00,s24b0403@siswa.umk.edu.my,Male (1),Single,Bachelor's,Student,PULAU PINANG,Malay,4,4.0,4.0,4.0,4,4.0,4.0,4.0,4,4.0,4.0,4.0,4.0,Rich,4.0,4.0,4.0,4,4.0,4.0,4.0,4.0,3,3,21.0,4.0
+2025-12-11 21:17:00,s22a0076@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,JOHOR,Malay,3,3.0,2.0,2.0,3,4.0,4.0,2.5,4,3.0,3.0,4.0,3.0,Get a job,4.0,2.0,2.0,3,2.0,3.0,4.0,4.0,2,2,21.0,2.6666666666666665
+2025-12-11 21:32:00,nureisyasaffiya03@gmail.com,Female (0),Single,Bachelor's,Employee,SELANGOR,Malay,3,4.0,2.0,3.0,5,4.0,4.0,5.0,3,4.0,4.0,5.0,4.0,growth,4.0,4.0,4.0,4,4.0,4.0,3.0,5.0,3,1,21.0,4.0
+2025-12-11 21:43:00,s22a0036@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,KELANTAN,Malay,4,3.0,3.0,3.0,5,4.0,5.0,5.0,4,4.0,4.0,5.0,5.0,employed ,2.0,2.0,2.0,4,2.0,4.0,4.0,5.0,2,2,21.0,2.0
+2025-12-11 22:00:00,s22b0006@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,SELANGOR,Malay,3,3.0,3.0,3.0,3,4.0,3.0,4.0,3,4.0,3.0,4.0,4.0,successful ,3.0,3.0,3.0,2,3.0,4.0,4.0,4.0,2,1,21.0,3.0
+2025-12-11 22:02:00,s22a0079@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,SELANGOR,Malay,3,4.0,4.0,3.0,5,5.0,5.0,5.0,4,4.0,4.0,5.0,4.0,success,4.0,5.0,5.0,4,3.0,3.0,4.0,5.0,3,3,21.0,4.0
+2025-12-11 22:03:00,s23b0121@siswa.umk.edu.my,Male (1),Single,Bachelor's,Student,SELANGOR,Malay,4,4.0,3.0,4.0,3,4.0,4.0,3.0,4,4.0,4.0,5.0,5.0,got a job as Data Analyst,4.0,4.0,4.0,4,4.0,4.0,3.0,4.0,3,4,21.0,4.0
+2025-12-11 22:04:00,nazifailyana26@gmail.com,Female (0),Single,Bachelor's,Unemployed,SELANGOR,Malay,4,5.0,3.0,4.0,5,5.0,4.0,5.0,4,4.0,2.0,5.0,4.0,growth,4.0,3.0,5.0,4,5.0,3.0,5.0,5.0,4,3,21.0,4.0
+2025-12-11 22:06:00,imandanielyap@gmail.com,Male (1),Single,Secondary,Employee,SELANGOR,Malay,4,3.0,3.0,5.0,3,4.0,3.0,5.0,4,4.0,4.0,4.0,4.0,Make my life and my family lives better,5.0,5.0,5.0,5,5.0,5.0,5.0,5.0,3,3,21.0,5.0
+2025-12-11 22:08:00,s23b0108@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,JOHOR,Malay,4,5.0,5.0,5.0,5,5.0,3.0,5.0,2,4.0,2.0,5.0,5.0,Stability,4.0,4.0,5.0,5,3.0,2.0,5.0,5.0,3,3,21.0,3.6666666666666665
+2025-12-11 22:09:00,s22a0032@siswa.umk.edu.my,Male (1),Single,Bachelor's,Student,JOHOR,Mandarin,2,1.5,1.5,1.5,1,4.0,4.0,5.0,4,3.0,4.0,5.0,5.0,Being an average person ,2.0,1.5,1.5,4,4.0,3.0,2.5,5.0,3,1,21.0,2.5
+2025-12-11 22:10:00,mirulz169@gmail.com,Male (1),Single,Bachelor's,Student,SELANGOR,Malay,3,3.0,5.0,5.0,5,5.0,5.0,5.0,3,5.0,5.0,5.0,5.0,Work hard,5.0,5.0,3.0,5,5.0,3.0,5.0,5.0,3,3,21.0,5.0
+2025-12-11 22:17:00,s22a0023@siswa.umk.edu.my,Male (1),Single,Bachelor's,Student,KELANTAN,Malay,5,5.0,5.0,5.0,3,4.0,4.0,5.0,5,5.0,5.0,5.0,5.0,Productive ,5.0,5.0,4.0,5,5.0,4.0,5.0,5.0,4,4,21.0,5.0
+2025-12-11 22:21:00,snsalsabila312@gmail.com,Female (0),Single,Bachelor's,Student,SELANGOR,Malay,2,2.0,2.0,3.0,3,5.0,5.0,5.0,5,5.0,4.0,5.0,5.0,stability,4.0,3.0,5.0,5,5.0,5.0,5.0,5.0,4,3,21.0,4.0
+2025-12-11 22:26:00,faizazhar2002@gmail.com,Male (1),Single,Secondary,Student,SELANGOR,Malay,3,3.0,3.0,3.0,5,5.0,5.0,5.0,5,5.0,5.0,5.0,5.0,Helpful,3.0,3.0,3.0,3,3.0,3.0,3.0,3.0,3,4,21.0,3.0
+2025-12-11 22:33:00,fahmijani223@gmail.com,Male (1),Single,Secondary,Employee,SELANGOR,Malay,3,3.0,3.0,4.0,2,3.0,3.0,3.0,4,2.0,3.0,5.0,5.0,Nak jadi kaya hahahaah,2.0,2.0,3.0,3,2.0,4.0,5.0,5.0,3,4,21.0,2.0
+2025-12-11 22:36:00,mashitah.f008@gmail.com,Female (0),Single,Bachelor's,Employee,KUALA LUMPUR,Malay,4,3.0,3.0,4.0,3,3.0,5.0,4.0,4,3.0,2.0,4.0,4.0,Moderate,3.0,2.0,3.0,5,4.0,4.0,5.0,5.0,2,2,21.0,3.0
+2025-12-11 22:44:00,izzzxty@gmail.com,Female (0),Single,Bachelor's,Employee,MELAKA,Malay,5,5.0,3.0,5.0,5,4.0,5.0,5.0,5,5.0,5.0,5.0,5.0,learn new language,5.0,3.0,5.0,5,5.0,3.0,5.0,5.0,2,3,21.0,4.333333333333333
+2025-12-11 22:54:00,s22b0008@siswa.umk.edu.my,Female (0),Single,Bachelor's,Unemployed,PULAU PINANG,Malay,2,2.0,3.0,3.0,3,4.0,3.0,3.0,3,2.0,3.0,4.0,2.5,Growth,3.0,2.0,4.0,5,5.0,3.0,5.0,2.5,2,2,21.0,3.3333333333333335
+2025-12-11 22:57:00,jaswannysunthar21@gmail.com,Female (0),Single,Master's,Student,PERAK,Tamil,4,4.0,4.0,4.0,4,4.0,4.0,4.0,4,4.0,4.0,4.0,4.0,studies,3.0,3.0,4.0,4,4.0,4.0,5.0,5.0,4,4,21.0,3.3333333333333335
+2025-12-11 22:59:00,nurkhadijah2d@gmail.com,Female (0),Single,Bachelor's,Student,SELANGOR,Malay,4,5.0,5.0,4.0,5,5.0,3.0,5.0,5,3.0,3.0,5.0,3.0,Travel,3.0,4.0,3.0,3,2.0,5.0,5.0,5.0,2,2,21.0,3.0
+2025-12-11 23:05:00,muhammadalkhotib@graduate.utm.my,Male (1),Single,Bachelor's,Student,NEGERI SEMBILAN,Malay,3,3.0,4.0,4.0,3,4.0,3.0,5.0,3,3.0,3.0,5.0,5.0,WEALTH,4.0,4.0,4.0,3,3.0,4.0,4.0,5.0,3,4,21.0,3.6666666666666665
+2025-12-11 23:10:00,arrashidnaufal@gmail.com,Male (1),Single,Bachelor's,Unemployed,SELANGOR,Malay,4,4.0,3.0,3.0,4,4.0,3.0,5.0,4,3.0,4.0,5.0,5.0,Fulfillment ,4.0,4.0,3.0,5,4.0,5.0,5.0,5.0,3,2,21.0,4.0
+2025-12-11 23:35:00,nursyarina148@gmail.com,Female (0),Single,Master's,Student,SELANGOR,Malay,4,2.0,3.0,3.0,3,5.0,4.0,4.0,4,3.0,3.0,3.0,4.0,Work,3.0,2.0,4.0,4,3.0,4.0,4.0,5.0,2,2,21.0,2.6666666666666665
+2025-12-11 23:50:00,dayangmirahh@gmail.com,Female (0),Single,Bachelor's,Student,SARAWAK,Malay,4,4.0,4.0,3.0,5,5.0,3.0,5.0,3,3.0,4.0,4.0,4.0,alive,4.0,3.0,4.0,4,4.0,4.0,5.0,5.0,4,3,21.0,3.6666666666666665
+,hafizisabri99@gmail.com,Male (1),Single,Secondary,Employee,SELANGOR,Malay,3,4.0,3.0,3.0,4,4.0,4.0,4.0,4,4.0,4.0,3.0,3.0,Istiqamah,3.0,3.0,3.0,3,3.0,4.0,4.0,5.0,2,2,21.0,3.0
+,aliafarzzana@gmail.com,Female (0),Single,Bachelor's,Employee,SELANGOR,Malay,4,2.0,3.0,4.0,2,4.0,4.0,4.0,5,3.0,1.5,4.0,4.0,to be a teacher,5.0,5.0,4.0,4,3.0,4.0,5.0,5.0,2,1,21.0,4.333333333333333
+,2023606938@student.uitm.edu.my,Male (1),Single,Bachelor's,Student,SELANGOR,Malay,4,5.0,3.0,5.0,3,5.0,3.0,3.0,5,4.0,5.0,5.0,5.0,Professional Title,5.0,4.0,3.0,5,5.0,5.0,5.0,5.0,3,4,21.0,4.666666666666667
+,s23a0237@siswa.umk.edu.my,Male (1),Single,Bachelor's,Student,KELANTAN,Malay,4,4.0,3.0,3.0,5,3.0,4.0,5.0,5,3.0,2.0,5.0,3.0,Growth,4.0,3.0,3.0,5,4.0,4.0,4.0,5.0,2,3,21.0,3.6666666666666665
+,alyaisshe@gmail.com,Female (0),Single,Bachelor's,Employee,SELANGOR,Malay,4,4.0,4.0,4.0,5,4.0,5.0,5.0,4,4.0,3.0,4.0,4.0,Maintaining consistency ,2.0,3.0,4.0,4,4.0,4.0,4.0,5.0,2,2,21.0,3.0
+,s25a0582@siswa.umk.edu.my,Male (1),Single,Bachelor's,Student,PERAK,Malay,4,4.0,4.0,4.0,4,4.0,4.0,4.0,4,4.0,4.0,5.0,5.0,Explore,4.0,4.0,4.0,4,4.0,4.0,4.0,4.0,3,3,21.0,4.0
+,nurhikmah.johan16@gmail.com,Female (0),Single,Bachelor's,Employee,SABAH,Malay,2,3.0,2.0,4.0,4,5.0,4.0,5.0,5,5.0,5.0,5.0,5.0,happy,2.0,2.0,3.0,5,5.0,5.0,5.0,5.0,2,3,21.0,3.0
+,s24a0481@siswa.umk.edu.my,Male (1),Single,Bachelor's,Student,SELANGOR,Malay,3,3.0,2.0,4.0,3,4.0,4.0,3.0,4,4.0,3.0,3.0,3.0,Saya nak jadi orang terbaik di antara terbaik yang bermanfaat buat agama dan orang lain,3.0,3.0,3.0,3,3.0,4.0,4.0,4.0,3,3,21.0,3.0
+,wansuhailiandalusia@gmail.com,Female (0),Single,Bachelor's,Employee,PAHANG,Malay,5,4.0,5.0,4.0,5,5.0,5.0,5.0,5,5.0,5.0,5.0,5.0,Proactive,5.0,5.0,5.0,5,5.0,4.0,5.0,5.0,3,3,21.0,5.0
+,nurulizzahradzuan@gmail.com,Female (0),Single,Bachelor's,Student,SELANGOR,Malay,3,3.0,3.0,3.0,3,3.0,3.0,3.0,3,3.0,3.0,3.0,3.0,Get a better job,3.0,3.0,3.0,5,3.0,3.0,3.0,3.0,3,3,21.0,3.0
+,a22b1272@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,OTHER,Malay,4,4.0,4.0,4.0,5,4.0,5.0,5.0,4,3.0,1.5,3.0,4.0,Successful,4.0,4.0,4.0,2,2.0,4.0,5.0,4.0,3,2,21.0,3.3333333333333335
+,s22a0077@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,JOHOR,Malay,5,5.0,3.0,4.0,3,4.0,4.0,5.0,2,4.0,3.0,5.0,5.0,Rich,3.0,4.0,4.0,4,4.0,4.0,5.0,5.0,3,3,21.0,3.6666666666666665
+,msidinah@gmail.com,Female (0),Single,Bachelor's,Student,SELANGOR,Sarawak ,3,3.0,2.0,3.0,4,4.0,5.0,3.0,3,3.0,2.0,4.0,4.0,degree,1.5,2.0,4.0,5,4.0,3.0,4.0,5.0,2,2,21.0,2.5
+,imranhelmi3@gmail.com,Male (1),Single,Secondary,Student,PAHANG,Malay,4,4.0,4.0,5.0,4,4.0,4.0,4.0,4,3.0,3.0,4.0,5.0,iPhone ,4.0,5.0,4.0,3,3.0,2.0,5.0,5.0,3,3,21.0,4.0
+,hanisalia931@gmail.com,Female (0),Single,Bachelor's,Student,PAHANG,Malay,4,3.0,4.0,4.0,5,2.5,3.0,5.0,4,4.0,2.0,5.0,5.0,To improve my skill in work,1.5,2.0,3.0,2,1.5,4.0,5.0,5.0,2,3,21.0,1.6666666666666667
+,napiomar46@gmail.com,Male (1),Married,Secondary,Employee,PAHANG,Malay,3,2.0,2.0,3.0,3,2.5,3.0,5.0,4,3.0,3.0,2.5,3.0,Success ,2.0,1.5,3.0,3,2.0,3.0,5.0,5.0,2,2,21.0,1.8333333333333333
+,najmiee6011@gmail.com,Male (1),Single,Bachelor's,Student,SELANGOR,Malay,3,4.0,2.0,5.0,5,4.0,3.0,5.0,4,3.0,2.0,4.0,5.0,Helpful,3.0,2.0,1.5,3,3.0,5.0,5.0,5.0,1,2,21.0,2.6666666666666665
+,liashazreen@gmail.com,Female (0),Single,Bachelor's,Employee,KUALA LUMPUR,Malay,3,4.0,2.0,3.0,3,3.0,4.0,3.0,4,3.0,3.0,3.0,3.0,Live my life,3.0,3.0,3.0,3,3.0,3.0,3.0,3.0,3,2,21.0,3.0
+,kyuna070@gmail.com,Female (0),Married,Secondary,Employee,TERENGGANU,Malay,3,2.0,2.0,2.0,5,4.0,4.0,5.0,3,2.0,3.0,4.0,4.0,Home,2.0,2.0,4.0,4,2.0,5.0,5.0,5.0,3,4,21.0,2.0
+,iqramhafizi07@gmail.com,Male (1),Single,Diploma,Student,PAHANG,Malay,4,4.0,5.0,5.0,5,4.0,4.0,4.0,4,3.0,3.0,5.0,5.0,Money,4.0,5.0,4.0,4,5.0,4.0,4.0,4.0,3,3,21.0,4.666666666666667
+,s22a0075@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,KELANTAN,Malay,2,2.0,1.5,1.5,5,5.0,3.0,5.0,5,3.0,2.0,5.0,5.0,Communication ,3.0,3.0,3.0,5,5.0,3.0,5.0,5.0,3,2,21.0,3.6666666666666665
+,s22a0040@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,SELANGOR,Malay,3,4.0,2.0,3.0,4,4.0,5.0,5.0,4,3.0,2.0,4.0,4.0,Married,4.0,4.0,4.0,4,2.0,4.0,4.0,5.0,3,2,21.0,3.3333333333333335
+,hnhr07@gmail.com,Male (1),Single,Secondary,Student,PAHANG,Malay,3,2.0,1.5,1.5,4,3.0,3.0,4.0,5,3.0,2.0,3.0,3.0,Success,2.0,3.0,4.0,2,2.0,5.0,4.0,5.0,2,3,21.0,2.3333333333333335
+,mohamadfarisfirdausm@gmail.com,Male (1),Single,Bachelor's,Student,MELAKA,Malay,5,5.0,5.0,5.0,5,5.0,5.0,5.0,5,5.0,5.0,5.0,5.0,To stay with goodness ,5.0,5.0,5.0,5,5.0,5.0,5.0,5.0,4,4,21.0,5.0
+,adeeadeeputra@gmail.com,Male (1),Single,Secondary,Student,PAHANG,Malay,4,4.0,2.0,3.0,5,5.0,3.0,2.5,4,3.0,4.0,5.0,5.0,Mature,3.0,4.0,5.0,4,4.0,4.0,4.0,5.0,3,3,21.0,3.6666666666666665
+,tuan.ainil0810@gmail.com,Female (0),Single,Secondary,Student,PAHANG,Malay,4,3.0,3.0,3.0,3,3.0,3.0,3.0,3,3.0,3.0,3.0,3.0,i want to enter my dream university ,4.0,4.0,3.0,3,3.0,3.0,3.0,3.0,3,3,21.0,3.6666666666666665
+,hudajaafar02@gmail.com,Female (0),Single,Bachelor's,Student,KELANTAN,Malay,3,3.0,3.0,3.0,4,4.0,3.0,4.0,3,3.0,4.0,4.0,4.0,Be excellent in communication ,3.0,3.0,3.0,4,2.0,5.0,5.0,5.0,3,2,21.0,2.6666666666666665
+,dmzdarwisyah@gmail.com,Female (0),Single,Secondary,Student,PAHANG,Malay,4,4.0,4.0,4.0,3,4.0,4.0,5.0,5,3.0,3.0,5.0,5.0,Be more confident and enhance my knowledge with the help of others.,3.0,3.0,4.0,4,4.0,4.0,5.0,5.0,2,2,21.0,3.3333333333333335
+,nurainaadriana2008@gmail.com,Female (0),Single,Secondary,Student,PAHANG,Malay,2,2.0,3.0,3.0,5,5.0,3.0,5.0,3,4.0,4.0,4.0,5.0,I want to pass my matrics and continue my study in medical course,1.5,2.0,3.0,4,4.0,3.0,3.0,4.0,2,2,21.0,2.5
+,aidilidham1112@gmail.com,Male (1),Single,Primary,Retired,KELANTAN,Malay,3,3.0,3.0,3.0,3,3.0,3.0,3.0,3,3.0,3.0,3.0,3.0,Every good ,3.0,3.0,3.0,3,3.0,3.0,3.0,3.0,2,3,21.0,3.0
+,m-9565137@moe-dl.edu.my,Female (0),Single,Secondary,Student,PAHANG,Malay,2,2.0,3.0,3.0,2,5.0,1.5,4.0,4,3.0,2.0,3.0,4.0,improve.,2.0,2.0,4.0,3,4.0,5.0,5.0,4.0,2,1,21.0,2.6666666666666665
+,ainanurina010@gmail.com,Female (0),Single,Diploma,Student,KELANTAN,Malay,5,5.0,5.0,5.0,5,5.0,4.0,5.0,4,4.0,4.0,5.0,5.0,growth,4.0,5.0,4.0,5,4.0,5.0,5.0,5.0,3,3,21.0,4.333333333333333
+,farisazwar13@gmail.com,Male (1),Single,Secondary,Student,PAHANG,Malay,4,4.0,4.0,4.0,4,4.0,3.0,5.0,4,4.0,4.0,5.0,5.0,Bring my parents go to masjidil Haram to see Tomb of the Prophet Muhammad SAW,4.0,4.0,4.0,3,3.0,2.0,4.0,5.0,3,4,21.0,3.6666666666666665
+,rozaimimohammad2@gmail.com,Male (1),Single,Secondary,Student,PAHANG,Malay,4,5.0,4.0,3.0,5,3.0,4.0,5.0,3,2.0,5.0,5.0,5.0,be usefull for society,3.0,3.0,5.0,2,4.0,1.5,5.0,5.0,4,4,21.0,3.3333333333333335
+,ainadia351@gmail.com,Female (0),Single,Bachelor's,Student,TERENGGANU,Malay,4,4.0,3.0,4.0,4,5.0,5.0,5.0,4,5.0,5.0,5.0,5.0,successful ,3.0,3.0,5.0,5,4.0,5.0,5.0,5.0,2,2,21.0,3.3333333333333335
+,ibnorhaikal@gmail.com,Male (1),Single,Bachelor's,Student,PERAK,Malay,3,3.0,2.0,3.0,3,5.0,4.0,4.0,4,4.0,4.0,4.0,5.0,Working and have my own family ,4.0,5.0,2.0,4,5.0,3.0,5.0,5.0,3,4,21.0,4.666666666666667
+,2028farisfarhan@gmail.com,Male (1),Single,Secondary,Student,PAHANG,Malay,4,4.0,4.0,4.0,3,3.0,3.0,4.0,3,3.0,2.0,4.0,4.0,Going to university ,4.0,4.0,4.0,3,3.0,3.0,3.0,3.0,2,2,21.0,3.6666666666666665
+,kamalinsofiya7@gmail.com,Female (0),Single,Secondary,Student,PAHANG,Malay,4,4.0,5.0,3.0,4,4.0,3.0,4.0,4,3.0,4.0,4.0,4.0,rich,4.0,3.0,4.0,4,4.0,4.0,4.0,5.0,3,3,21.0,3.6666666666666665
+,auni3356@gmail.com,Female (0),Single,Secondary,Student,PAHANG,Malay,3,3.0,4.0,3.0,4,4.0,3.0,5.0,5,4.0,4.0,4.0,4.0,successful ,3.0,3.0,4.0,3,4.0,4.0,4.0,4.0,3,3,21.0,3.3333333333333335
+,nuriera493@gmail.com,Female (0),Single,Primary,Student,PAHANG,Malay,3,2.0,3.0,4.0,2,4.0,4.0,4.0,4,3.0,2.0,4.0,3.0,succes,3.0,3.0,3.0,2,3.0,4.0,4.0,5.0,2,2,21.0,3.0
+,zal.official7@gmail.com,Male (1),Single,Bachelor's,Employee,SELANGOR,English,5,5.0,4.0,4.0,5,5.0,5.0,5.0,4,3.0,5.0,5.0,5.0,To be the person who i am in the next 10 years,5.0,5.0,5.0,5,5.0,1.5,5.0,4.0,2,2,21.0,5.0
+,mdanielhakim0785@gmail.com,Male (1),Single,Secondary,Student,PAHANG,English,5,5.0,5.0,5.0,5,5.0,5.0,5.0,5,5.0,5.0,5.0,5.0,lecturer ,5.0,5.0,5.0,5,5.0,5.0,4.0,5.0,4,4,21.0,5.0
+,nurhazirahrosmadi023@gmail.com,Female (0),Single,Bachelor's,Student,KELANTAN,Malay,5,5.0,5.0,5.0,4,5.0,5.0,5.0,4,5.0,5.0,5.0,5.0,Confident,3.0,4.0,4.0,4,5.0,4.0,5.0,5.0,4,3,21.0,4.0
+,smartcare.malaysia@gmail.com,Male (1),Single,Bachelor's,Student,SELANGOR,Malay,3,3.0,3.0,5.0,5,5.0,3.0,5.0,5,5.0,5.0,5.0,5.0,Growth,3.0,3.0,3.0,5,4.0,4.0,3.0,5.0,4,3,21.0,3.3333333333333335
+,adrieyzailani@gmail.com,Male (1),Single,Secondary,Student,PAHANG,Malay,3,4.0,4.0,3.0,4,4.0,3.0,4.0,4,3.0,3.0,4.0,4.0,Success,4.0,4.0,4.0,3,3.0,4.0,5.0,4.0,2,3,21.0,3.6666666666666665
+,m-9565152@moe-dl.edu.my,Female (0),Single,Secondary,Student,PAHANG,Malay,3,3.0,3.0,3.0,4,4.0,4.0,5.0,3,3.0,3.0,4.0,4.0,success ,2.0,2.0,3.0,3,2.0,4.0,4.0,5.0,2,2,21.0,2.0
+,aisyahmra29@gmail.com,Female (0),Single,Secondary,Student,KEDAH,Malay,5,4.0,4.0,4.0,5,5.0,3.0,3.0,5,5.0,5.0,5.0,4.0,to be successful person,5.0,5.0,4.0,4,4.0,3.0,4.0,4.0,2,3,21.0,4.666666666666667
+,haziqumarr@gmail.com,Male (1),Single,Secondary,Student,PAHANG,Malay,4,3.0,4.0,4.0,4,4.0,4.0,3.0,4,3.0,3.0,4.0,4.0,be better than this year,3.0,3.0,3.0,3,3.0,4.0,4.0,3.0,3,3,21.0,3.0
+,camillbaharuddin@gmail.com,Female (0),Single,Secondary,Student,PAHANG,Malay,2,3.0,2.0,4.0,4,4.0,3.0,4.0,3,2.0,2.0,5.0,4.0,Success ,3.0,4.0,3.0,2,2.0,3.0,4.0,5.0,2,2,21.0,3.0
+,s23a0251@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,KELANTAN,Malay,4,4.0,3.0,4.0,4,5.0,3.0,5.0,5,4.0,5.0,5.0,5.0,Probably to find a stable job and to travel,4.0,3.0,5.0,5,5.0,5.0,5.0,5.0,4,4,21.0,4.0
+,sakinah@famsy.asia,Female (0),Married,Diploma,Employee,MELAKA,Malay,5,5.0,5.0,5.0,5,5.0,5.0,5.0,5,5.0,5.0,5.0,5.0,Have more savings and emergency funds ,5.0,4.0,5.0,5,5.0,5.0,5.0,4.0,2,2,21.0,4.666666666666667
+,pamelapathricia@gmail.com,Female (0),Single,Primary,Student,PAHANG,iban,2,4.0,3.0,2.0,4,4.0,3.0,5.0,2,3.0,3.0,4.0,4.0,straight As on spm,2.0,4.0,4.0,2,2.0,2.0,4.0,3.0,3,2,21.0,2.6666666666666665
+,adielasefia123@gmail.com,Female (0),Single,Secondary,Student,PAHANG,Malay,4,4.0,3.0,4.0,5,5.0,4.0,5.0,4,3.0,4.0,5.0,4.0,achieve my body goals,4.0,4.0,4.0,3,5.0,4.0,5.0,5.0,4,3,21.0,4.333333333333333
+,s22a0072@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,KEDAH,Malay,3,3.0,2.0,4.0,4,4.0,4.0,5.0,4,4.0,2.0,4.0,2.5,Successful,2.0,1.5,2.0,4,2.0,5.0,5.0,5.0,2,2,21.0,1.8333333333333333
+,nursarahhaziqah@gmail.com,Female (0),Single,Secondary,Student,PAHANG,Malay,3,3.0,2.0,3.0,4,4.0,3.0,5.0,4,3.0,3.0,4.0,4.0,Pursue my education in medical field,3.0,3.0,3.0,3,3.0,5.0,5.0,4.0,3,3,21.0,3.0
+,a22a0498@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,PAHANG,Malay,4,3.0,3.0,4.0,4,4.0,4.0,4.0,4,3.0,4.0,4.0,4.0,-,3.0,3.0,4.0,4,4.0,2.0,4.0,4.0,2,3,21.0,3.3333333333333335
+,s22a0049@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,KEDAH,Malay,4,4.0,4.0,4.0,4,4.0,4.0,4.0,4,3.0,3.0,4.0,4.0,career,4.0,4.0,4.0,4,4.0,3.0,4.0,4.0,3,2,21.0,4.0
+,wansuhailakmrddn@gmail.com,Female (0),Single,Secondary,Student,PAHANG,Malay,3,3.0,3.0,4.0,4,4.0,4.0,4.0,4,3.0,3.0,4.0,3.0,study,4.0,4.0,3.0,3,4.0,3.0,4.0,5.0,3,3,21.0,4.0
+,afifridhwan7@gmail.com,Male (1),Single,Secondary,Student,PAHANG,Malay,4,5.0,4.0,5.0,4,5.0,4.0,5.0,5,4.0,5.0,5.0,4.0,to get a job,4.0,4.0,5.0,3,5.0,4.0,5.0,5.0,4,3,21.0,4.333333333333333
+,nshyu0323@gmail.com,Female (0),Married,Bachelor's,Employee,SABAH,Malay,4,4.0,3.0,4.0,5,5.0,5.0,5.0,5,5.0,3.0,5.0,5.0,Stability,5.0,5.0,5.0,5,5.0,3.0,5.0,5.0,3,4,21.0,5.0
+,2024434228@student.uitm.edu.my,Male (1),Single,Bachelor's,Student,SELANGOR,Malay,5,4.0,3.0,3.0,3,4.0,3.0,4.0,4,3.0,4.0,4.0,4.0,Get rich and healthy,3.0,4.0,4.0,4,3.0,4.0,5.0,4.0,4,4,21.0,3.3333333333333335
+,anikuu1210@gmail.com,Male (1),Single,Bachelor's,Student,SELANGOR,Malay,4,4.0,2.0,4.0,3,4.0,3.0,4.0,4,4.0,4.0,5.0,4.0,kerja,3.0,3.0,4.0,4,4.0,3.0,4.0,4.0,3,3,21.0,3.3333333333333335
+,2024222978@student.uitm.edu.my,Male (1),Married,Bachelor's,Employee,MELAKA,Malay,3,3.0,3.0,3.0,3,3.0,3.0,3.0,3,3.0,3.0,3.0,3.0,live,3.0,3.0,3.0,3,3.0,3.0,3.0,3.0,3,3,21.0,3.0
+,dayangzahidah031@gmail.com,Female (0),Single,Bachelor's,Employee,KUALA LUMPUR,Malay,3,3.0,3.0,3.0,3,3.0,3.0,3.0,3,3.0,3.0,3.0,3.0,ANC,3.0,3.0,3.0,3,3.0,3.0,3.0,3.0,3,3,21.0,3.0
+,razlienwan26@gmail.com,Female (0),Single,Bachelor's,Student,TERENGGANU,Malay,5,5.0,5.0,5.0,5,5.0,5.0,5.0,5,5.0,5.0,5.0,5.0,CEO,5.0,5.0,5.0,5,5.0,5.0,5.0,5.0,4,3,21.0,5.0
+,d20222105323@siswa.upsi.edu.my,Female (0),Single,Bachelor's,Student,NEGERI SEMBILAN,Malay,3,4.0,4.0,4.0,4,4.0,4.0,5.0,3,4.0,4.0,4.0,4.0,Self-improvement,4.0,4.0,3.0,4,4.0,3.0,5.0,5.0,4,3,21.0,4.0
+,sitinurdinizahra@gmail.com,Female (0),Single,Secondary,Student,SELANGOR,Malay,3,5.0,4.0,3.0,5,5.0,4.0,5.0,4,4.0,4.0,4.0,4.0,i want to focus on my studies and build a good future for myself.,3.0,3.0,4.0,4,3.0,4.0,5.0,5.0,3,2,21.0,3.0
+,suhailahnizam02@gmail.com,Female (0),Single,Bachelor's,Employee,KEDAH,Malay,4,4.0,4.0,4.0,4,4.0,4.0,4.0,3,3.0,3.0,4.0,4.0,to be a sucessful person in all aspects,4.0,4.0,3.0,3,4.0,4.0,4.0,4.0,3,3,21.0,4.0
+,afikahmiswan@gmail.com,Female (0),Single,Bachelor's,Unemployed,SELANGOR,Malay,5,4.0,3.0,4.0,5,5.0,5.0,5.0,5,5.0,5.0,5.0,5.0,To get a healthy lifestyle,4.0,4.0,4.0,4,5.0,5.0,5.0,5.0,3,2,21.0,4.333333333333333
+,puterisherena@gmail.com,Female (0),Single,Bachelor's,Unemployed,KUALA LUMPUR,Malay,3,2.0,2.0,3.0,3,4.0,2.0,4.0,4,2.0,3.0,3.0,4.0, financial stability ,3.0,2.0,4.0,4,3.0,4.0,4.0,5.0,2,2,21.0,2.6666666666666665
+,nurhusnabatrisyia11@gmail.com,Female (0),Single,Secondary,Student,PAHANG,Malay,3,4.0,4.0,4.0,4,5.0,5.0,5.0,2,3.0,4.0,3.0,5.0,success,5.0,5.0,4.0,5,4.0,5.0,5.0,5.0,3,3,21.0,4.666666666666667
+,juliaafrina02@gmail.com,Female (0),Single,Diploma,Unemployed,SELANGOR,Malay,4,4.0,4.0,3.0,4,4.0,5.0,5.0,5,4.0,3.0,4.0,4.0,succeed,2.0,4.0,3.0,3,3.0,3.0,3.0,4.0,2,2,21.0,3.0
+,a22a0370@siswa.umk.edu.my,Female (0),Married,Bachelor's,Student,PAHANG,Malay,3,3.0,3.0,3.0,3,3.0,3.0,3.0,3,3.0,3.0,3.0,3.0,Advance,3.0,3.0,3.0,3,3.0,3.0,3.0,3.0,3,2,21.0,3.0
+,2021486338@student.uitm.edu.my,Female (0),Single,Bachelor's,Employee,MELAKA,Malay,4,4.0,4.0,4.0,4,4.0,4.0,4.0,4,4.0,4.0,4.0,4.0,Becoming a successful person for myself and family,4.0,4.0,4.0,4,4.0,3.0,4.0,4.0,3,3,21.0,4.0
+,dyastraightas@gmail.com,Female (0),Single,Secondary,Student,PAHANG,Malay,2,2.0,2.0,3.0,4,3.0,2.0,5.0,3,3.0,3.0,4.0,4.0,being a successful daughter ,2.0,2.0,4.0,3,3.0,5.0,4.0,5.0,2,2,21.0,2.3333333333333335
+,fatinsyafika5444@gmail.com,Female (0),Single,Bachelor's,Student,KELANTAN,Malay,4,4.0,2.0,2.0,5,5.0,5.0,5.0,3,4.0,4.0,5.0,5.0,Healthy,4.0,4.0,5.0,5,4.0,4.0,5.0,5.0,2,2,21.0,4.0
+,s22a0024@siswa.umk.edu.my,Male (1),Single,Bachelor's,Student,SARAWAK,Mandarin,5,5.0,5.0,5.0,3,3.0,3.0,3.0,5,5.0,5.0,5.0,5.0,Get rich,3.0,3.0,3.0,3,3.0,3.0,3.0,3.0,3,3,21.0,3.0
+,nurafyzarriza20@gmail.com,Female (0),Single,Bachelor's,Unemployed,NEGERI SEMBILAN,Malay,3,2.0,2.0,3.0,3,5.0,4.0,4.0,4,3.0,3.0,4.0,4.0,To achieve everything that Ive been dreaming of,3.0,3.0,4.0,4,4.0,4.0,5.0,5.0,3,1,21.0,3.3333333333333335
+,m-9678595@moe-dl.edu.my,Male (1),Single,Secondary,Student,PAHANG,Malay,3,3.0,2.0,3.0,4,5.0,4.0,5.0,4,3.0,4.0,4.0,5.0,Visionary,5.0,4.0,4.0,5,4.0,3.0,5.0,4.0,3,3,21.0,4.333333333333333
+,redb43128@gmail.com,Male (1),Single,Secondary,Student,PAHANG,Malay,3,3.0,3.0,4.0,4,2.5,3.0,4.0,5,3.0,3.0,4.0,5.0,Successful ,4.0,3.0,3.0,5,4.0,4.0,5.0,5.0,2,2,21.0,3.6666666666666665
+,s22a0064@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,TERENGGANU,Malay,3,3.0,3.0,3.0,3,2.5,2.0,2.5,4,2.0,2.0,2.5,2.5,I want to loss my weight ,1.5,2.0,2.0,2,2.0,2.0,2.5,2.5,2,2,21.0,1.8333333333333333
+,firznhrsln@gmail.com,Female (0),Single,Bachelor's,Employee,SELANGOR,Malay,3,3.0,3.0,3.0,4,4.0,4.0,4.0,5,4.0,3.0,4.0,4.0,Stability ,3.0,2.0,3.0,4,3.0,4.0,4.0,4.0,2,2,21.0,2.6666666666666665
+,s22a0034@siswa.umk.edu.my,Male (1),Single,Bachelor's,Student,KELANTAN,Malay,3,4.0,4.0,4.0,3,4.0,2.0,2.5,3,2.0,4.0,4.0,4.0,Success ,5.0,5.0,4.0,4,4.0,5.0,4.0,4.0,3,4,21.0,4.666666666666667
+,m24j0011@siswa.umk.edu.my,Female (0),Single,Secondary,Student,KELANTAN,Malay,4,4.0,3.0,4.0,5,5.0,5.0,5.0,4,3.0,3.0,4.0,4.0,More prepared,3.0,3.0,4.0,4,4.0,1.5,4.0,5.0,3,2,21.0,3.3333333333333335
+,chesemah1@gmail.com,Female (0),Married,Secondary,Employee,KELANTAN,Malay,4,4.0,3.0,4.0,5,4.0,4.0,4.0,5,4.0,4.0,4.0,4.0,Live,3.0,3.0,4.0,4,3.0,3.0,5.0,5.0,2,3,21.0,3.0
+,mohamadamran1501@gmail.com,Male (1),Married,Diploma,Retired,KELANTAN,Malay,4,4.0,3.0,4.0,4,4.0,4.0,5.0,5,4.0,3.0,4.0,4.0,Live,4.0,4.0,4.0,4,4.0,3.0,5.0,5.0,2,2,21.0,4.0
+,mohamadnorakhmal5@gmail.com,Male (1),Single,Bachelor's,Employee,KELANTAN,Malay,5,5.0,4.0,4.0,5,5.0,1.5,5.0,3,1.5,5.0,5.0,5.0,trying to be better ,5.0,5.0,5.0,5,5.0,5.0,5.0,5.0,2,3,21.0,5.0
+2025-10-12 00:25:00,ainasafura0550@gmail.com,Female (0),Single,Bachelor's,Student,PAHANG,Malay,5,5.0,3.0,5.0,5,5.0,4.0,5.0,4,4.0,4.0,5.0,5.0,"Calm, happy also have a good life and job",4.0,2.0,5.0,5,4.0,4.0,4.0,5.0,3,4,21.0,3.3333333333333335
+2025-10-12 07:27:00,s22a0047@siswa.umk.edu.my,Female (0),Single,Bachelor's,Student,PAHANG,Malay,3,4.0,2.0,2.0,3,4.0,3.0,4.0,4,3.0,4.0,5.0,5.0,Skillful,4.0,4.0,3.0,4,4.0,5.0,4.0,5.0,2,2,21.0,4.0

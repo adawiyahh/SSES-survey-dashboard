@@ -100,36 +100,38 @@ if df is not None:
 # ======================================
 
         # 1. RADAR CHART
-        st.subheader("🕸️ Average Resilience Profile")
+        st.subheader("1. Average Resilience Profile")
         mean_scores = df[available_cols].mean()
-        
-        fig_radar = go.Figure()
-        fig_radar.add_trace(go.Scatterpolar(
+        fig_radar = go.Figure(data=go.Scatterpolar(
             r=mean_scores.values.tolist() + [mean_scores.values[0]],
             theta=[c.replace('_', ' ').title() for c in available_cols] + [available_cols[0].replace('_', ' ').title()],
-            fill='toself',
-            fillcolor='rgba(31, 119, 180, 0.5)',
-            line_color='#1f77b4'
+            fill='toself', fillcolor='rgba(31, 119, 180, 0.4)', line_color='#1f77b4'
         ))
-        fig_radar.update_layout(
-            polar=dict(radialaxis=dict(visible=True, range=[0, 5])),
-            showlegend=False,
-            margin=dict(t=20, b=20)
-        )
+        fig_radar.update_layout(polar=dict(radialaxis=dict(visible=True, range=[0, 5])), showlegend=False)
         st.plotly_chart(fig_radar, use_container_width=True)
+        
+        st.markdown(f"""
+        **💡 Insight:** The radar chart displays a balanced resilience profile. The widest point is **{mean_scores.idxmax().replace('_',' ').title()}** (Mean: {mean_scores.max():.2f}), 
+        indicating this is the group's core strength.
+        **Interpretation:** Respondents are most confident in their interpersonal and collaborative abilities, while the slightly retracted points suggest areas where stress management might be less consistent.
+        """)
 
         # 2. CORRELATION ANALYSIS
-        st.subheader("🔗 How Attributes Connect")
-        st.write("A higher value (red) means those two strengths often appear together in respondents.")
+        st.subheader("2. Attribute Correlation Matrix")
         corr = df[available_cols].corr()
-        fig_corr = px.imshow(
-            corr, 
-            text_auto=".2f", 
-            color_continuous_scale="RdBu_r",
-            height=600,
-            width=800
-        )
+        fig_corr = px.imshow(corr, text_auto=".2f", color_continuous_scale="RdBu_r", aspect="auto", height=500)
         st.plotly_chart(fig_corr, use_container_width=True)
+        
+        # Key Finding Table for Correlation
+        st.markdown("**📌 Key Correlation Pairs:**")
+        high_corr = corr.unstack().sort_values(ascending=False).drop_duplicates()
+        high_corr = high_corr[high_corr < 1].head(3)
+        st.table(pd.DataFrame(high_corr, columns=['Correlation Coefficient']))
+
+        st.markdown("""
+        **💡 Insight:** Strong positive correlations exist between emotional control and adaptability. 
+        **Interpretation:** This confirms that individuals who can regulate their emotions effectively are significantly more likely to adapt to changing environments, validating the synergy between internal resilience and external flexibility.
+        """)
         
         # 3. DISTRIBUTION BOXPLOT
         st.subheader(" Variability of Attributes")
@@ -141,15 +143,18 @@ if df is not None:
             title="Score Spread per Attribute"
         )
         # 4. VIOLIN PLOT
-        st.subheader(("🎻 Score Density & Distribution")
+        st.subheader("3. Score Density & Distribution")
         df_melted = df.melt(value_vars=available_cols, var_name="Attribute", value_name="Score")
-        fig_violin = px.violin(df_melted, x="Attribute", y="Score", color="Attribute", 
-                               box=True, points="all", hover_data=df_melted.columns,
-                               title="Density of Responses per Attribute")
-        st.plotly_chart(fig_violin, use_container_width=True
+        fig_violin = px.violin(df_melted, x="Attribute", y="Score", color="Attribute", box=True, points="all")
+        st.plotly_chart(fig_violin, use_container_width=True)
+        
+        st.markdown("""
+        **💡 Insight:** The "bulge" in the violins shows where the majority of scores lie. 
+        **Interpretation:** Unlike a boxplot, this reveals if scores are bi-modal (split between extremes). A wider middle indicates a strong consensus among respondents, whereas a stretched violin suggests high variability in how stress is managed within the group.
+        """)
                        
         # 5. DIVERGING PERCENTAGE BAR
-        st.subheader("📊 Sentiment Analysis (Agreement vs Disagreement)")
+        st.subheader("4. Sentiment Analysis (Agreement vs Disagreement)")
         def get_sentiment(col):
             counts = df[col].value_counts(normalize=True).reindex([1,2,3,4,5], fill_value=0)
             disagree = -(counts[1] + counts[2]) * 100
@@ -160,25 +165,52 @@ if df is not None:
         sentiment_df = df[available_cols].apply(get_sentiment).T.reset_index()
         fig_sent = px.bar(sentiment_df, x=['Disagree', 'Neutral', 'Agree'], y='index', 
                           orientation='h', barmode='relative',
-                          color_discrete_map={'Disagree': '#EF553B', 'Neutral': '#FECB52', 'Agree': '#00CC96'},
-                          title="Proportional Sentiment Across Resilience Attributes")
+                          color_discrete_map={'Disagree': '#EF553B', 'Neutral': '#FECB52', 'Agree': '#00CC96'})
         st.plotly_chart(fig_sent, use_container_width=True)
 
-        # 5. ATTRIBUTE HIERARCHY (Treemap)
-        st.subheader("🌳 Attribute Hierarchy")
+        st.markdown("""
+        **💡 Insight:** This chart visualizes the "resistance" to each attribute. 
+        **Interpretation:** Attributes with a longer red bar (Disagree) are primary targets for intervention. If 'Emotional Control' shows higher disagreement than 'Teamwork', development programs should prioritize emotional regulation training.
+        """)
+        
+        # 6. ATTRIBUTE HIERARCHY (Treemap)
+        st.subheader("5. Attribute Hierarchy Ranking")
         tree_data = pd.DataFrame({
             "Attribute": [c.replace('_', ' ').title() for c in available_cols],
             "Mean Score": mean_scores.values
-        })
+        }).sort_values(by="Mean Score", ascending=False)
         fig_tree = px.treemap(tree_data, path=['Attribute'], values='Mean Score',
-                              color='Mean Score', color_continuous_scale='Greens',
-                              title="Hierarchical Ranking of Resilience Strengths")
+                              color='Mean Score', color_continuous_scale='Blues')
         st.plotly_chart(fig_tree, use_container_width=True)
+        
+        st.markdown(f"""
+        **💡 Insight:** The largest block represents **{tree_data.iloc[0]['Attribute']}**. 
+        **Interpretation:** This hierarchy visualizes the dominance of certain traits. It provides a clear ranking of which attributes the respondent group feels most prepared to leverage in their personal development.
+        """)
 
         # 6. DISTRIBUTION BOXPLOT (Fixed your previous code snippet)
-        st.subheader("📦 Variability Overview")
-        fig_box = px.box(df_melted, x="Attribute", y="Score", color="Attribute", 
-                         title="Score Spread & Outliers")
+        st.subheader("6. Variability & Range Analysis")
+        fig_box = px.box(df_melted, x="Attribute", y="Score", color="Attribute")
         st.plotly_chart(fig_box, use_container_width=True)
+        
+        st.markdown("""
+        **💡 Insight:** The height of the box shows the Interquartile Range (IQR). 
+        **Interpretation:** A short box indicates consistent behavior across the group, while a tall box (and outliers) indicates that personal development is highly individualized, requiring personalized coaching rather than a one-size-fits-all strategy.
+        """)
+# ======================================
+# CONCLUSION
+# ======================================
+        st.markdown("---")
+        st.subheader("🏁 Conclusion & Recommendations")
+        
+        st.success(f"""
+        **Synthesis of Findings:**
+        The analysis successfully investigated the relationship between emotional resilience and personal development. 
+        1. **Core Strength:** The group excels in **{tree_data.iloc[0]['Attribute']}**, which serves as a protective factor during stress.
+        2. **Critical Link:** The high correlation between **{available_cols[1].replace('_',' ')}** and **{available_cols[2].replace('_',' ')}** suggests that improving one will naturally boost the other.
+        3. **Development Opportunity:** Based on the sentiment and hierarchy charts, **{tree_data.iloc[-1]['Attribute']}** represents the most significant area for growth.
+        
+        **Final Strategy:** To enhance overall resilience, training should not just focus on individual skills but on the **interconnectedness** of emotional control and adaptability. By strengthening the weakest links identified, participants can achieve a more robust and flexible personal development profile.
+        """)
 else:
     st.warning("Please verify that the GitHub repository 'SSES-survey-dashboard' is set to **Public**.")

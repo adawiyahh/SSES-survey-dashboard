@@ -43,6 +43,72 @@ df[objective3_cols] = df[objective3_cols].apply(pd.to_numeric, errors="coerce")
 df[objective3_cols] = df[objective3_cols].fillna(df[objective3_cols].median())
 
 # ======================================
+# 🧾 SUMMARY OVERVIEW – LIKERT DISTRIBUTION
+# ======================================
+st.markdown("### 🧾 Summary Overview")
+
+# Calculate Agree / Disagree proportions
+agree_levels = [4, 5]
+disagree_levels = [1, 2]
+
+agree_prop = (
+    df[objective3_cols]
+    .isin(agree_levels)
+    .mean()
+)
+
+disagree_prop = (
+    df[objective3_cols]
+    .isin(disagree_levels)
+    .mean()
+)
+
+# Identify strongest & weakest attributes
+strongest_attr = agree_prop.idxmax()
+weakest_attr = agree_prop.idxmin()
+
+# Overall resilience index
+overall_resilience = agree_prop.mean()
+
+# Display summary metrics
+col1, col2, col3 = st.columns(3)
+
+col1.metric(
+    "Overall Agreement Level",
+    f"{overall_resilience:.2%}"
+)
+
+col2.metric(
+    "Strongest Attribute",
+    strongest_attr.replace("_", " ").title()
+)
+
+col3.metric(
+    "Lowest Agreement Attribute",
+    weakest_attr.replace("_", " ").title()
+)
+
+# Insight box
+st.markdown(
+    f"""
+    <div style="
+        background-color:#f7f9fb;
+        padding:18px;
+        border-radius:10px;
+        border-left:5px solid #4CAF50;
+    ">
+    <b>Interpretation:</b><br>
+    The Likert-scale distribution indicates that respondents generally demonstrate a positive level of emotional
+    resilience and personal development. The highest level of agreement is observed for
+    <b>{strongest_attr.replace("_", " ").title()}</b>, while
+    <b>{weakest_attr.replace("_", " ").title()}</b> shows comparatively lower agreement,
+    suggesting a potential area for development.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+# ======================================
 # 1️⃣ LIKERT DISTRIBUTION (STACKED BAR)
 # ======================================
 st.subheader("1. Distribution of Emotional Resilience and Personal Development Attributes")

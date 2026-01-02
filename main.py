@@ -16,6 +16,7 @@ st.set_page_config(
 )
 
 # Define page
+homepage = st.Page("Homepage.py",title=" Homepage")
 demographic = st.Page("Demographic_Analysis.py",title="Demographic Analysis")
 machine_learning = st.Page("Machine_Learning.py",title="Machine Learning")
 survey = st.Page("Survey_Charts.py",title="Survey Chart")
@@ -26,7 +27,7 @@ emotion = st.Page("Emotion_Resilience.py",title="Emotion Resilience")
 # ======================================
 pg = st.navigation(
     {
-        "Menu": [demographic, machine_learning, survey, emotion]
+        "Menu": [homepage, demographic, machine_learning, survey, emotion]
     }
 )
 

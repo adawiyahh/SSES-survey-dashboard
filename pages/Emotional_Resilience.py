@@ -47,7 +47,8 @@ df[objective3_cols] = df[objective3_cols].fillna(df[objective3_cols].median())
 # ======================================
 st.subheader("1. Distribution of Emotional Resilience and Personal Development Attributes")
 
-likert_dist = (
+# Prepare Likert distribution (same logic as Colab)
+likert_counts = (
     df[objective3_cols]
     .apply(lambda x: x.value_counts(normalize=True))
     .T
@@ -55,13 +56,15 @@ likert_dist = (
     .rename(columns={"index": "Attribute"})
 )
 
-likert_long = likert_dist.melt(
+# Convert to long format
+likert_long = likert_counts.melt(
     id_vars="Attribute",
     var_name="Likert Scale",
     value_name="Proportion"
 )
 
-fig1 = px.bar(
+# Plot stacked bar chart
+fig = px.bar(
     likert_long,
     x="Attribute",
     y="Proportion",
@@ -70,7 +73,13 @@ fig1 = px.bar(
     title="Distribution of Emotional Resilience and Personal Development Attributes"
 )
 
-st.plotly_chart(fig1, use_container_width=True)
+fig.update_layout(
+    yaxis_title="Proportion of Responses",
+    xaxis_title="Attributes",
+    legend_title="Likert Scale"
+)
+
+st.plotly_chart(fig, use_container_width=True)
 
 # ======================================
 # 2️⃣ RADAR CHART (AVERAGE PROFILE)

@@ -130,6 +130,7 @@ if df is not None:
             width=800
         )
         st.plotly_chart(fig_corr, use_container_width=True)
+        
         # 3. DISTRIBUTION BOXPLOT
         st.subheader(" Variability of Attributes")
         fig_box = px.box(
@@ -138,6 +139,46 @@ if df is not None:
             y="value",
             color="variable"
             title="Score Spread per Attribute"
-       )
+        )
+        # 4. VIOLIN PLOT
+        st.subheader(("🎻 Score Density & Distribution")
+        df_melted = df.melt(value_vars=available_cols, var_name="Attribute", value_name="Score")
+        fig_violin = px.violin(df_melted, x="Attribute", y="Score", color="Attribute", 
+                               box=True, points="all", hover_data=df_melted.columns,
+                               title="Density of Responses per Attribute")
+        st.plotly_chart(fig_violin, use_container_width=True
+                       
+        # 5. DIVERGING PERCENTAGE BAR
+        st.subheader("📊 Sentiment Analysis (Agreement vs Disagreement)")
+        def get_sentiment(col):
+            counts = df[col].value_counts(normalize=True).reindex([1,2,3,4,5], fill_value=0)
+            disagree = -(counts[1] + counts[2]) * 100
+            neutral = counts[3] * 100
+            agree = (counts[4] + counts[5]) * 100
+            return pd.Series([disagree, neutral, agree], index=['Disagree', 'Neutral', 'Agree'])
+
+        sentiment_df = df[available_cols].apply(get_sentiment).T.reset_index()
+        fig_sent = px.bar(sentiment_df, x=['Disagree', 'Neutral', 'Agree'], y='index', 
+                          orientation='h', barmode='relative',
+                          color_discrete_map={'Disagree': '#EF553B', 'Neutral': '#FECB52', 'Agree': '#00CC96'},
+                          title="Proportional Sentiment Across Resilience Attributes")
+        st.plotly_chart(fig_sent, use_container_width=True)
+
+        # 5. ATTRIBUTE HIERARCHY (Treemap)
+        st.subheader("🌳 Attribute Hierarchy")
+        tree_data = pd.DataFrame({
+            "Attribute": [c.replace('_', ' ').title() for c in available_cols],
+            "Mean Score": mean_scores.values
+        })
+        fig_tree = px.treemap(tree_data, path=['Attribute'], values='Mean Score',
+                              color='Mean Score', color_continuous_scale='Greens',
+                              title="Hierarchical Ranking of Resilience Strengths")
+        st.plotly_chart(fig_tree, use_container_width=True)
+
+        # 6. DISTRIBUTION BOXPLOT (Fixed your previous code snippet)
+        st.subheader("📦 Variability Overview")
+        fig_box = px.box(df_melted, x="Attribute", y="Score", color="Attribute", 
+                         title="Score Spread & Outliers")
+        st.plotly_chart(fig_box, use_container_width=True)
 else:
     st.warning("Please verify that the GitHub repository 'SSES-survey-dashboard' is set to **Public**.")

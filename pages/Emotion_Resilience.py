@@ -9,6 +9,31 @@ import plotly.graph_objects as go
 # ======================================
 st.title("🧠 Emotional Resilience Analysis")
 
+# ======================================
+# PROBLEM STATEMENT
+# ======================================
+with st.container():
+    st.markdown("### 📝 Problem Statement")
+    st.info("""
+    Emotional resilience is a key factor in personal and professional success. 
+    Understanding how individuals manage stress, adapt to change, control emotions, 
+    and maintain motivation can help identify areas for personal development. 
+    
+    This analysis investigates the relationship between emotional resilience and key 
+    personal development attributes such as **adaptability, motivation, emotional control, 
+    task persistence, and teamwork skills**. Insights from this study aim to inform 
+    strategies for enhancing resilience among participants.
+    """)
+# ======================================
+# OBJECTIVE
+# ======================================
+    st.markdown("### 🎯 Objective")
+    st.write("""
+    To investigate the relationship between emotional resilience and personal development 
+    attributes, including motivation, adaptability, emotional control, task persistence, 
+    and teamwork skills.
+    """)
+
 st.markdown("""
 Investigating the relationship between emotional resilience and personal development attributes 
 including **adaptability, motivation, and teamwork**.
